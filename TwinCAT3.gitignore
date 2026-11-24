@@ -28,7 +28,6 @@ LineIDs.dbg.bak
 *.xti.bak
 *.xti.bk?
 *.xti.orig
-*.xtv
 *.xtv.bak
 *.xtv.bk?
 *.xt?.bk?
@@ -45,7 +44,6 @@ LineIDs.dbg.bak
 **/_Deployment/
 **/_Repository/
 
-
 # To include a specific library directory (i.e. third party/custom libs),
 # use pattern `!/**/_Libraries/<directory name>/` i.e. `!/**/_Libraries/www.tcunit.org/`
 #
@@ -55,3 +53,6 @@ LineIDs.dbg.bak
 *.~u
 *.project.~u
 *.suo
+
+# TwinCAT Measurement
+*.vsm

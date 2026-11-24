@@ -23,7 +23,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -40,23 +39,23 @@
 *.app
 
 # Build directories
-build/
-Build/
-build-*/
+[Bb]uild/
+[Bb]uild-*/
+cmake-build-*/
 
 # CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
-install_manifest.txt 
+install_manifest.txt
 compile_commands.json
 
 # Temporary files
-*.tmp 
-*.log 
-*.bak 
-*.swp 
+*.tmp
+*.log
+*.bak
+*.swp
 
 # vcpkg
 vcpkg_installed/

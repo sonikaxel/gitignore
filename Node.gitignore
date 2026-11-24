@@ -83,6 +83,9 @@ out
 dist
 .output
 
+# NitroJS
+.nitro/
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -92,9 +95,8 @@ dist
 # vuepress build output
 .vuepress/dist
 
-# vuepress v2.x temp and cache directory
+# vuepress v2.x temp directory
 .temp
-.cache
 
 # Sveltekit cache directory
 .svelte-kit/
@@ -123,7 +125,7 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode extensions
+# Stores Visual Studio Code versions used for testing Visual Studio Code extensions
 .vscode-test
 
 # pnpm
@@ -142,3 +144,14 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Astro generated types
+.astro/
+
+# Turbo Repo (https://turborepo.dev/)
+.turbo
+
+# Nx (https://nx.dev/)
+.nx/cache
+.nx/workspace-data
+.nx/migrate-runs
